@@ -1,5 +1,5 @@
 
-if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
+if(/iPhone|iPod|Android/i.test(navigator.userAgent)){
 
 	$(".sitbackandenjoy").addClass("mobilesitbackandenjoy");
 
@@ -46,8 +46,13 @@ if(/iPad|iPod/i.test(navigator.userAgent)){
 let sitbackboxheight = $(".sitbackandenjoy").css("height").slice(0,-2);
 let sitbackboxwidth = $(".sitbackandenjoy").css("width").slice(0,-2);
 
+console.log(sitbackboxheight);
+console.log($(".sitbackandenjoy").outerHeight());
+console.log(sitbackboxwidth);
+console.log($(".sitbackandenjoy").outerWidth());
+
 $(".sitbackandenjoy").css("margin-top", (-1*180/2) + "px");
-$(".sitbackandenjoy").css("margin-left", (-1*220 -10)+ "px");
+// $(".sitbackandenjoy").css("margin-left", (-1*574/2 -10)+ "px");
 
 // postioning about us after landing page
 
@@ -74,7 +79,7 @@ $(".Questions").css("top", registerformpos-10 + "px");
 
 //positioning footer
 
-let footerpos = registerformpos + parseInt($(".Questions").css("height").slice(0,-2));4
+let footerpos = registerformpos + parseInt($(".Questions").css("height").slice(0,-2));
 
 console.log(footerpos);
 $(".footer").css("top", footerpos-15 +"px");
