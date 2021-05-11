@@ -47,7 +47,7 @@ let sitbackboxheight = $(".sitbackandenjoy").css("height").slice(0,-2);
 let sitbackboxwidth = $(".sitbackandenjoy").css("width").slice(0,-2);
 
 $(".sitbackandenjoy").css("margin-top", (-1*180/2) + "px");
-$(".sitbackandenjoy").css("margin-left", (-1*574/2 -10)+ "px");
+$(".sitbackandenjoy").css("margin-left", (-1*220 -10)+ "px");
 
 // postioning about us after landing page
 
