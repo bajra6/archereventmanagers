@@ -1,0 +1,60 @@
+/* global begins */
+
+body{
+	text-decoration-color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: black;
+}
+
+.hidden{
+	display: none;
+}
+
+/* global ends */
+
+/* Navbar begins */
+
+.customnavbarcss{
+	font-size: 1.7em;
+	z-index: 100;
+	background-color: black;
+}
+
+/* Navbar ends */
+
+/* Gallery */
+
+#gallery{
+  margin-top: 20px; font-size: 3em;
+}
+
+#heading{
+  color: white;
+}
+
+.gallery-title{
+  color: white;
+  text-align: center;
+}
+
+/* gallery ends */
+
+/* footer starts */
+
+.footer{
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+}
+
+a:link {
+  color: white;
+
+}
+
+/* footer ends */

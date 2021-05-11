@@ -1,0 +1,75 @@
+/* global begins */
+
+body{
+	text-decoration-color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: black;
+}
+
+.hidden{
+	display: none;
+}
+
+/* global ends */
+
+/* Navbar begins */
+
+.customnavbarcss{
+	font-size: 1.7em;
+	z-index: 100;
+	background-color: black;
+}
+
+/* Navbar ends */
+
+/* comingsoon video and landing page begins */
+
+.landingpage{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+  	height: 100%;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*z-index: -1;*/
+  object-fit: cover;
+}
+
+.sitbackandenjoy{
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	position: absolute;
+    top: 50%;
+	left: 50%;
+}
+
+/* comingsoon video and landing page ends */
+
+/* footer starts */
+
+.footer{
+	position: absolute;
+	top:100%;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+}
+
+a:link {
+  color: white;
+
+}
+
+/* footer ends */

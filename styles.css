@@ -1,0 +1,234 @@
+/* global begins */
+
+body{
+	text-decoration-color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.hidden{
+	display: none;
+}
+
+/* global ends */
+
+/* Navbar begins */
+
+.customnavbarcss{
+	width:100%;
+	font-size: 1.7em;
+	z-index: 100;
+	background-color: black;
+}
+
+/* Navbar ends */
+
+/* Archer video and landing page begins */
+
+.landingpage{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+  	height: 100%;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.sitbackandenjoy{
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	position: absolute;
+    top: 50%;
+	left: 50%;
+}
+
+/* Archer video and landing page ends */
+
+/* About us starts */
+
+.aboutus{
+	background-color: black;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+}
+
+#aboutusvideo{
+	width: 100%;
+}
+
+.mobileaboutuscss{
+	text-align: center;
+	color: white;
+	font-size: 2em;
+}
+
+.mobileaboutuscontentcss{
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+
+}
+
+.laptopaboutuscss{
+	text-align: left;
+	color: white;
+	font-size: 2em;
+	margin-top: 30%;
+}
+
+.laptopaboutuscontentcss{
+	text-align: left;
+	color: white;
+	margin-top: 10%;
+
+}
+
+/* About us ends */
+
+/* Features starts */
+
+#features-section{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+  	height: 250%;
+  	background-color: black;
+}
+
+.featuresvideo{
+	margin-top: 10%;
+	height: 27%;
+}
+
+.problem{
+	padding-top: 10%;
+	color: white;
+	text-align: left;
+	height: 27%;
+}
+
+.featuresicon{
+	height: 200px;
+	width: 200px;
+}
+
+.solution{
+	padding-top: 15%;
+	color: white;
+	height: 33%;
+}
+
+.featurecard{
+	margin: 10%
+}
+
+.featurespoints{
+	font-size: 1.5em;
+	margin-top: 4%;
+}
+
+.mobileproblemlist{
+	margin-top: 20%
+}
+
+.problemlistitems{
+	font-size: 2em;
+}
+
+.mobileproblemlistitems{
+	margin-top: 15%
+}
+
+.laptopproblemlistitems{
+	margin-top: 5%;
+}
+
+.mobilesolutionrow{
+	margin-top: 10%;
+}
+
+/* Features end */
+
+/* Register starts */
+
+.Questions{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+  	height: 100%;
+  	background-color: black;
+  	color: white;
+}
+
+.formdabba{
+  border: 5px solid grey;
+  height: 100%;
+}
+
+.formcontrol{
+  width: 50%;
+}
+
+.registernow{
+	font-size: 3.5rem;
+}
+
+.enteryourdetails{
+	margin-top: 7%;
+	font-size: 2.5em;
+}
+
+.mobileenteryourdetails{
+	height: 60%;
+}
+
+.mobileenterdetails{
+	font-size: 1.5em;
+}
+
+.mobileregisterinputs{
+	height: 10%;
+	margin-top: 7% !important;
+	font-size: 1em;
+}
+
+.mobileregisterbutton{
+	height: 10%;
+	margin-top: 5%;
+	width: 30%;
+	font-size: 1em;
+}
+
+.ipadenteryourdetails{
+	margin-top: 10% !important;
+}
+
+/* footer begins */
+
+.footer{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	background-color: black;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+}
+
+a:link {
+  color: white;
+
+}
+
+/* footer ends */
